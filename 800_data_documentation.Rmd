@@ -1,0 +1,17 @@
+# Data documentation {#documentation}
+
+
+Placeholder page
+
+## Workflow
+
+_How_ you work with data is as important as _what_ you do with the data.
+
+
+## Data documentation
+
+The documentation of the data sources, methods, etc is vital for reproducibility\index{reproducibility}.
+
+### Literate programming
+
+
