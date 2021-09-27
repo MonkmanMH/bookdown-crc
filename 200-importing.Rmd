@@ -1,0 +1,46 @@
+# (PART) Import {-} 
+
+# Importing data {#importing}
+
+The data has been collected. It might be the result of:
+
+* Running trials or experiments in a controlled laboratory setting.
+
+* Making observations and recording the results of those observations (for example, as an astronomer or biologist might).
+
+* Sampling the people in an area and asking them a series of questions.
+
+* Collecting information as part of a business operation. A familiar example are supermarket checkout scanners which data about grocery purchases, which facilitate operation management of the store by tracking sales and inventory, and generating orders.
+
+
+Once it has been collected in this way, you might have direct access to it. Or it may have a layer of processing between the raw source and the way it appears to your. After this processing, you might:
+
+* Have access to a database where the raw data with additional manipulations is stored.
+
+* Have access to a sample of the raw data.
+
+* Download data from a website, where the downloaded table has data that has already been compiled and summarized from a larger data set. An example would be Statistics Canada's Census data tables.
+
+
+
+And it's important to note that your analysis project might require more than one of these methods of data collection.
+
+How you assemble the data you need will depend on many factors, including what is already available, what your budget is (for example, some business-related data is collected by companies that then make it available at a cost), and the legal and regulatory environment (for example, the definition of "personal information" varies from one jurisdiction to the next).
+
+
+## Data formats
+
+The data gets stored in a variety of electronic formats. The choice of format might be influenced by any one of the following:
+
+* the underlying needs of the data collectors (some file formats are tailored to a specific use);
+
+* the technology available to the collector;
+
+* the nature of the data being collected.
+
+There is sometimes (often?) no right answer as to the best format for a particular use case—there are pros and cons to each. (With that said, there is often a clear _less good_ choice for data storage and sharing...we're looking at you, PDF.) What this means is that in your workflow you will have to deal with data that needs to be extracted from a multitude of systems, and will be available to you in a multitude of formats.
+
+> It is essential that a statistician can talk to the database specialist, and, as a team member, the statistician, along with most others, will be expected to be able to use the database facilities for most purposes by themselves, and of course advise on aspects of the design. There is always much preliminary 'data cleaning' to do before an analysis can begin, almost regardless of how good a job is done by the database specialist. [@Venables_IDT_review_2010]
+
+There are plenty of resources detailing the complexities of the different data storage formats, and the decision process that goes into deciding which format is appropriate for a specific use-case. I always approach the task assuming that the professionals who built the data storage system made a well-informed decision, including balancing the various trade-offs between different formats, as well as budgetary and technology contraints that they might have faced.
+

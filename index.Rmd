@@ -26,6 +26,13 @@ options(
 lapply(c('xfun'), function(pkg) {
   if (system.file(package = pkg) == '') install.packages(pkg)
 })
+
+# packages
+# tidyverse (extended)
+library(tidyverse)
+library(haven)
+
+
 ```
 
 # Preface  {-}
