@@ -3,7 +3,6 @@ output:
   pdf_document: default
   html_document: default
 ---
-# (PART) Import {-} 
 
 ```{r setup_ch200, include=FALSE}
 
