@@ -3,6 +3,13 @@ output:
   pdf_document: default
   html_document: default
 ---
+
+<!-- 
+This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
+-->
+
+
+
 # Data documentation {#datadocumentation}
 
 
@@ -268,10 +275,6 @@ Here are a couple of good articles with good ideas about how to structure your p
 
   - This one goes deep into things like version control and the {targets} package, all of which are worth introducing into your workflow...but are beyond the scope of this project.
 
-
-<!-- 
-This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
--->
 
 _still needs **R TOOLS** section_
 
