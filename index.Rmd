@@ -44,7 +44,9 @@ library(palmerpenguins)
 
 # Preface  {-}
 
-<img src="img\20478450629_50e4c32d23_c.jpg" width="350" height="460" alt="Fisgard Lighthouse" />
+<img src="img\\20478450629_50e4c32d23_c.jpg" width="350" height="460" alt="Fisgard Lighthouse" />
+
+![_Fisgard Lighthouse_](img/20478450629_50e4c32d23_c.jpg)
 
 
 It is routinely noted that the [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle) applies to data science—80% of one's time is spent on data collection and preparation, and the remaining 20% on the "fun stuff" like modeling, data visualization, and communication.
@@ -184,3 +186,8 @@ The cover image is a wayfinder close to my home: [Fisgard Lighthouse](https://ww
 
 The photo was taken by Jeff Hitchcock, and was downloaded from [flickr.com](https://flic.kr/p/xcBpUZ); that site notes that the image is licensed under the [Creative Commons license Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/).
 
+
+
+<!-- 
+This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
+-->

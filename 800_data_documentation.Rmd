@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Data documentation {#datadocumentation}
 
 
@@ -8,10 +13,11 @@ _the future chapter 8_
 The documentation of the data sources, methods, etc is vital for reproducibility\index{reproducibility}.
 
 
-> Document and comment your code for yourself as if you will need to understand it in 6 months. 
+"Document and comment your code for yourself as if you will need to understand it in 6 months."
 —Jenny Bryan
 
-> If you're not thinking about keeping track of things, you won't keep track of things.
+
+"If you're not thinking about keeping track of things, you won't keep track of things."
 —Karl Broman
 
 
@@ -37,7 +43,8 @@ The reasons for documenting our workflow are similar to the reasons we would sav
 
 * To create a save point in our workflow, so that we can continue our work later but without having to go through all the steps to remember everything we've done.
 
-![unfinished work](unfinished_work_400.png)
+![_unfinished work_](img/unfinished_work_400.png)
+
 
 _Source: [monkeyuser.com](https://www.monkeyuser.com/2018/unfinished-work/), 2018-07-03_
 
@@ -49,13 +56,13 @@ There doesn't seem to be a single-best how-to instruction on "documentation" in 
 
 In the journal article "Good enough practices in scientific computing", the authors write
 
-> Good documentation is a key factor in software adoption, but in practice, people won't write comprehensive documentation until they have collaborators who will use it. They will, however, quickly see the point of a brief explanatory comment at the start of each script, so we have recommended that as a first step.
+"Good documentation is a key factor in software adoption, but in practice, people won't write comprehensive documentation until they have collaborators who will use it. They will, however, quickly see the point of a brief explanatory comment at the start of each script, so we have recommended that as a first step."
 —Wilson, Bryan, et al.
 ^[Wilson, Bryan, et al., "Good enough practices in scientific computing", _PLOS Computational Biology_, 13:6, June 22, 2017](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
 Similar sentiments are expressed in a recent blog post by Randy Au ^[["Let's Get Intentional About Documentation"](https://counting.substack.com/p/lets-get-intentional-about-documentation), 2020-09-29] expresses on key idea in the title, and builds on it: we need to be intentional in our actions around documentation (or as he argues, a better term might be "recordkeeping").
 
->Recordkeeping is keeping records, notes, and artifacts around to **help in creating documentation in the future.** It’s done by the people involved in doing the actual work saving things and making clarifications that only they really understand, with no expectation that someone else needs to understand everything. The material collected is primarily intended for use to write the actual documentation. Think of it as preserving raw data for future use.
+"Recordkeeping is keeping records, notes, and artifacts around to **help in creating documentation in the future.** It’s done by the people involved in doing the actual work saving things and making clarifications that only they really understand, with no expectation that someone else needs to understand everything. The material collected is primarily intended for use to write the actual documentation. Think of it as preserving raw data for future use."
 
 I like the way this is framed. "Documentation" then becomes a fully-realized user manual, suitable for complex and recurring projects with many different contributors, and that might be considered mission critical. A lot of data science work doesn't meet those criteria, so what we need isn't "documentation" but the notes that someone could use to build the documentation.
 
@@ -67,12 +74,12 @@ And it's important to think about this at the beginning—maybe even _before_ th
 
 Computer scientist Donald Knuth introduced the idea of "literate programming". 
 
-> a computer program is given an explanation of its logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which compilable source code can be generated. ... [Literate programming] enables programmers to develop programs in the order demanded by the logic and flow of their thoughts.
+"... a computer program is given an explanation of its logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which compilable source code can be generated. ... [Literate programming] enables programmers to develop programs in the order demanded by the logic and flow of their thoughts."
 —Source: Wikipedia, [Literate programming](https://en.wikipedia.org/wiki/Literate_programming)
 
 The idea is to "code your documentation, instead of document your code".
 
-> Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.
+"Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."
 —Donald Knuth
 
 In the context of a data science project, this is enabled in R Markdown (or Jupyter notebooks), where text descriptions of the what and why of a code chunk can precede that chunk. So rather than existing as a separate "documentation" document, the record of the programmer's thoughts are captured in the file that runs the code.
@@ -98,7 +105,7 @@ For those working in an academic setting, Marwick, Boettiger and Mullen have def
 
 They also provide some concrete examples of that a file structure might look like; note that the structure explicitly follows that of an R package. Their figure showing a "medium compendia" is below:
 
-![Medium research compendia](utas_a_1375986_f0003_b.gif)
+![Medium research compendia](img/utas_a_1375986_f0003_b.png)
 
 In this example, there are elements that might not be relevant for every project (for example, a code and data license). But note that there's a clear separation of the data and the code that generates the analysis. As well, this structure is well-supported by the "project" approach, where what is shown here as the "COMPENDIUM" folder would be the root folder of your project. Everything else is self-contained within it.
 
@@ -171,12 +178,12 @@ But having another README in the data folder wouldn't hurt either.
 
 The source ["Art of README"](https://github.com/noffle/art-of-readme) has some good tips on creating one. Although it's aimed at people writing computer programs and modules, the lessons apply to data science projects as well.
 
->Your job is to
->
->1. tell them what it is (with context)
->1. show them what it looks like in action
->1. show them how they use it
->1. tell them any other relevant details
+Your job is to
+
+1. tell them what it is (with context)
+1. show them what it looks like in action
+1. show them how they use it
+1. tell them any other relevant details
 
 Some other tips the authors provide:
 
@@ -236,13 +243,13 @@ As we have seen, preparing data requires a number of subjective steps along the 
 
 Here are the three minimum components of a data dictionary:
 
->1. information about the variables (including units!) in the dataset not contained in the tidy data,
->
->1. information about the summary choices made, and
->
->1. information about the experimental study design [or the data source]
->
->—Ellis & Leek ^[Ellis and Leek, ["How to Share Data for Collaboration"](https://peerj.com/preprints/3139/)]
+1. information about the variables (including units!) in the dataset not contained in the tidy data,
+
+1. information about the summary choices made, and
+
+1. information about the experimental study design [or the data source]
+
+—Ellis & Leek ^[Ellis and Leek, ["How to Share Data for Collaboration"](https://peerj.com/preprints/3139/)]
 
 
 
@@ -261,147 +268,10 @@ Here are a couple of good articles with good ideas about how to structure your p
 
   - This one goes deep into things like version control and the {targets} package, all of which are worth introducing into your workflow...but are beyond the scope of this project.
 
----
-
-## Tools to help with documentation
-
-
-### The computational environment
-
-#### The verion of R
-
-The functions `R.Version()` or `version()` will both return a number of details about the version of R that you're running.
-
-```{r, eval=FALSE}
-R.Version()
-#
-rversion <- R.Version()
-rversion$version.string
-
-# or
-version
-
-```
-
-#### The version of the packages
-
-{annotater} - annotates package load calls
-
-This RStudio add-in adds information about the packages in your script.
-
-* https://github.com/luisDVA/annotater
-
-To install the add-in, run this script (note that it needs the package called {remotes}, which you might not have).
-
-```{r, eval=FALSE}
-
-# install.packages("remotes")
-remotes::install_github("luisDVA/annotater")
-
-```
-
-Now restart RStudio, and the functions of {annotater} will appear in the Addins menu.
-
-
-Let's try it:
-
-```{r, eval=FALSE}
-
-library(tidyverse) # Easily Install and Load the 'Tidyverse', CRAN v1.3.1
-
-```
-
-
-#### File folder structure
-
-The package {fs} has a function `dir_tree()` that will create a dendogram of the file folder structure and files in your project folder.
-
-```{r, eval=FALSE}
-
-library(fs) # Cross-Platform File System Operations Based on 'libuv', CRAN v1.5.0 
-
-fs::dir_tree(path = here::here(), recurse = TRUE)
-
-dir_tree()
-
-dir_tree(here::here("lessons", "class_05"))
-
-```
-
-
-{fs} has a variety of other functions for programming queries and changes to your file and folder structures, including returning file size, and changes such as file copying, deleting.
-
-The reference page for {fs}: https://fs.r-lib.org/
-
-A blog article with some examples of how the functions within {fs} can be used: https://www.tidyverse.org/blog/2018/01/fs-1.0.0/
-
----
-
-### Data dictionary
-
-Web app:
-https://rubenarslan.ocpu.io/codebook/www/
-
-
-
-
-Reference material for {codebook}:
-
-* https://www.rdocumentation.org/packages/codebook/versions/0.9.2
-
-* https://journals.sagepub.com/doi/full/10.1177/2515245919838783
-
-* https://rubenarslan.github.io/codebook/
-
-
-
-Another R package that can be used to create a data dictionary is {dataMeta}:
-
-https://bookdown.org/lyzhang10/lzhang_r_tips_book/how-to-make-a-simple-data-dictionary.html
-
-https://cran.r-project.org/web/packages/dataMeta/vignettes/dataMeta_Vignette.html
-
-
-Some other resources I found but didn't use:
-
-https://research.tue.nl/files/145367570/Data_Dictionary_Group_Tutorial.pdf
-
-http://optimumsportsperformance.com/blog/creating-a-data-dictionary-function-in-r/
-
-
-if your data sets are structurally identical from one to the next--say, a monthly extract of sales data from a retail store database--then one code book would be suitable for record keeping
-you might want to put a note to say "this code book was generated using the October 2020 data; the structure is identical to the other months but the distribution statistics will differ"
-
-
-
-#### {packrat} .
-
-[{packrat}](https://rstudio.github.io/packrat/) is a "dependency management system" that not only documents which version of R and the packages your project uses, but stores them and takes a snapshot of them so that other users have a record of your software.
-
-
-
-
-
-## REFERENCES
-
-Randy Au, ["Let's Get Intentional About Documentation"](https://counting.substack.com/p/lets-get-intentional-about-documentation), 2020-09-29
-
-Randy Au, ["Data Science Practice 101: Always Leave An Analysis Paper Trail"](https://towardsdatascience.com/data-science-practice-101-always-leave-an-analysis-paper-trail-cc17079fae5a), 2019-04-16
-
-Buttery and Whitaker, chapter 7.6
-
-Donald Knuth, _Literate Programming_
-
-* [www.literateprogramming.com](http://www.literateprogramming.com/)
-
-* [wikipedia article](https://en.wikipedia.org/wiki/Literate_programming)
-
-
-
-
 
 <!-- 
 This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
 -->
 
+_still needs **R TOOLS** section_
 
