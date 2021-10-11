@@ -39,14 +39,14 @@ The reasons for documenting our workflow are similar to the reasons we would sav
 
 * To make the project available to a collaborator. 
 
-* To provide a record when we move to different jobs or projects (we would want others to do that for us!).
+* To provide a record when we move to different jobs or projects (we would want others to do that for us!)
 
 * To create a save point in our workflow, so that we can continue our work later but without having to go through all the steps to remember everything we've done.
 
-![_unfinished work_](img/unfinished_work_400.png)
+![_unfinished work_^[_Source: [monkeyuser.com](https://www.monkeyuser.com/2018/unfinished-work/), 2018-07-03_]](img/unfinished_work_400.png)
 
 
-_Source: [monkeyuser.com](https://www.monkeyuser.com/2018/unfinished-work/), 2018-07-03_
+
 
 As well, things change (the data, the sofware and hardware we use, the motivations for our work) and capturing the details about those things helps us make any necessary changes that might be required at a later date.
 
