@@ -7,3 +7,8 @@ knitr::write_bib(c(
 ), 'packages.bib')
 ```
 
+
+<!-- 
+This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
+-->
+

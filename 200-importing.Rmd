@@ -599,3 +599,8 @@ Other examples of importing files can be found here:
 
 * Zumel and Mount, _Practical Data Science with R_ [@Zumel_Mount_2019, chapter 2]
 
+
+<!-- 
+This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
+-->
+

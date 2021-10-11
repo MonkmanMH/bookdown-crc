@@ -109,3 +109,9 @@ knitr::kable(
 ```
 
 More chapters to come in `02-foo.Rmd`, `03-bar`.Rmd, ...
+
+
+<!-- 
+This file by Martin Monkman is licensed under a Creative Commons Attribution 4.0 International License. 
+-->
+
