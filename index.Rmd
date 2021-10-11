@@ -37,6 +37,9 @@ library(here)
 library(janitor)
 library(labelled)
 
+# data
+library(palmerpenguins)
+
 ```
 
 # Preface  {-}
